@@ -5,7 +5,7 @@ use strict;
 
 use base 'Number::Object::Plugin::Tax';
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 our $RATE    = 1.1;
 
 sub calc {
@@ -23,7 +23,7 @@ Number::Object::Plugin::Tax::AU::GST - a Number::Object plugin for Australian GS
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 

@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
-use Test::Most qw/no_plan/;
-
+use Test::More qw/no_plan/;
 use Number::Object;
 
 my $load_plugins = qq{ 
@@ -20,7 +19,7 @@ my $num1 = Number::Object->new(99.95);
 
 isa_ok($num1, 'Number::Object');
 
-is( $num1, 99.95, "num1 correctly stringified" );
+is( "$num1", 99.95, "num1 correctly stringified" );
 is( $num1 + 0, 99.95, "num1 correctly numified" );
 
 is( $num1->value,       99.95, 'num1 value is correct' );
