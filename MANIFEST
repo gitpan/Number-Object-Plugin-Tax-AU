@@ -1,0 +1,7 @@
+Changes
+MANIFEST
+Makefile.PL
+README
+lib/Number/Object/Plugin/Tax/AU/GST.pm
+t/00-load.t
+t/01-basic.t
