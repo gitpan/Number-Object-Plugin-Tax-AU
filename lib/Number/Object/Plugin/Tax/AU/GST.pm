@@ -17,6 +17,31 @@ sub calc {
   return $total - $price;
 }
 
+sub deduct_tax : Method {
+  my ($self, $c) = @_;
+
+  my $price = $c->{value};
+  my $total = $price / $RATE;
+
+  return $total;
+}
+
+sub inc_price_tax_portion : Method {
+  my ($self, $c) = @_;
+
+  my $price = $c->{value};
+
+  return $price / 11;
+}
+
+sub ex_price_tax_portion : Method {
+  my ($self, $c) = @_;
+
+  my $price = $c->{value};
+
+  return $price / 10;
+}
+
 =head1 NAME
 
 Number::Object::Plugin::Tax::AU::GST - a Number::Object plugin for Australian GST
