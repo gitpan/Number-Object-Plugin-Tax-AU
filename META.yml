@@ -1,7 +1,7 @@
 ---#YAML:1.0
 name: Number-Object-Plugin-Tax-AU
 abstract: a Number::Object plugin for Australian GST
-version: 0.03
+version: 0.03_01
 author:
   - Matt Koscica <mattk@cpan.org>
 license: perl
