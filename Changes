@@ -1,8 +1,5 @@
 Revision history for Number::Object::Plugin::Tax::AU::GST
 
-0.03_01 2009-12-16
-        Bump version numbers
-
 0.03    2009-12-16
         Fix META.yml
 
