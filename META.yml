@@ -1,11 +1,13 @@
 ---
 name: Number-Object-Plugin-Tax-AU
 abstract: a Number::Object plugin for Australian GST
-version: 0.04
+version: 0.05
 author:
   - Matt Koscica <mattk@cpan.org>
 license: perl
 distribution_type: module
+build_requires:
+  Number::Object: 0
 requires:
   Number::Object: 0
 meta-spec:
